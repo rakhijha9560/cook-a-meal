@@ -37,9 +37,4 @@ API used to fetch meals by their ID: www.themealdb.com/api/json/v1/1/lookup.php?
 - [Javascript](https://www.javascript.com/)
 - [Bootstrap](https://getbootstrap.com/)
 
-## Screenshots
-
-![Homepage](screenshots/Homepage.jpg)
-![Recipe Details](screenshots/recipe-detail.jpg)
-![Favourites](screenshots/favourites-page.jpg)
 
