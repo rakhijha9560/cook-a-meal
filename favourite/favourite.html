@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- meta tag for changing the address bar in mobiles -->
+    <meta name="theme-color" content="#212529" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8c43ba49d3.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Favourite Meals</title>
+  </head>
+
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <h2 id="title" class="navbar-brand mx-auto">Favourite Meals</h2>
+    </nav>
+    <main class="d-flex flex-column justify-content-around align-items-center">
+      <div
+        id="favourite-meals-container"
+        class="
+          d-flex
+          flex-wrap flex-row
+          align-items-center
+          justify-content-center
+        "
+      >
+        <!-- structure of meal item -->
+        <!-- <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "food.jpg" alt = "food-img">
+            </div>
+            <div class = "meal-name">
+              <h3>Meal Name</h3>
+            </div>
+            <button type="submit" class="btn btn-sm btn-outline-primary unfavourite-button"> Add To Favourites </button>
+          </div> -->
+      </div>
+
+
+
+      <div id="meal-details">
+        <!-- Go Back Button -->
+        <button class="btn btn-sm btn-outline-danger back-button">
+          <i class="fas fa-arrow-circle-left"></i> &nbsp; Go Back
+        </button>
+        <div id="meal-details-container">
+          <!-- Structure of meal Details -->
+          <!-- <h2 class = "recipe-title">Title of Meal</h2>
+                <div class = "recipe-instructions">
+                    <p>Intructions</p>
+                </div>
+                <div class = "recipe-meal-img">
+                    <img src = "" alt = "">
+                </div>
+                <div class = "recipe-link">
+                    <a href = "" target = "_blank">Watch Video</a>
+                </div> -->
+        </div>
+      </div>
+
+
+    </main>
+
+    <!-- footer with with social media links like : LinkedIn, twitter, whatsapp and GitHub -->
+    <footer>
+      Made with <span> &hearts; </span> by Rakhi Jha &nbsp; <a href="https://www.linkedin.com/in/rakhi-jha-197a80213/"><i class="fa-brands fa-linkedin-in"></i></a> &nbsp;
+      <a href="https://github.com/rakhijha9560"><i class="fa-brands fa-github"></i></a>
+    </footer>
+
+
+    <!-- Bootstrap scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./favourite_script.js"></script>
+
+
+  </body>
+</html>
