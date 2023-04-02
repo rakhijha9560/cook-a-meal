@@ -1,6 +1,6 @@
 # Cook a Meal App
 
-Cook a meal app is simple web app which will display the recipe to cook any meal that you search for. It fetches the details of the meal from an API.
+Cook a meal app is a simple web app which displays the recipe of any meal that you search for, It fetches the details of the meal from an API
 
 ## Hosted Link
 
